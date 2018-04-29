@@ -1,0 +1,23 @@
+{
+  "name": "GMusic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamenCoders/GMusic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RamenCoders/GMusic/issues"
+  },
+  "homepage": "https://github.com/RamenCoders/GMusic#readme",
+  "dependencies": {
+    "electron-reload": "^1.2.2"
+  }
+}
