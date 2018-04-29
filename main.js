@@ -5,13 +5,15 @@ const path = require('path')
 let win  
 
 function createWindow() { 
-   win = new BrowserWindow({width: 1024, height: 800}) 
+   win = new BrowserWindow({width: 1024, height: 800})
+   win.setMenu(null); 
    win.loadURL(url.format ({ 
-      // pathname: path.join(__dirname, 'apps/index.html'), 
+    //  pathname: path.join(__dirname, 'apps/info.html'), 
       protocol: 'web:',
       protocol: 'https://play.google.com/music/listen?u=0#', 
-      slashes: true 
+      slashes: true
+      
    })) 
 }  
 
-app.on('ready', createWindow) 
+app.on('ready', createWindow)
